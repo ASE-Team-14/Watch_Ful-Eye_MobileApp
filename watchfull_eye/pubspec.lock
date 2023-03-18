@@ -57,6 +57,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.5.1"
+  amplify_auth_cognito:
+    dependency: "direct main"
+    description:
+      name: amplify_auth_cognito
+      sha256: "0aca1be175441c6c1d29e88d73da9ffda5f10e7dc904d4294c0e8daf2ad53619"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
+  amplify_auth_cognito_android:
+    dependency: transitive
+    description:
+      name: amplify_auth_cognito_android
+      sha256: b195d9038420e27b6ba4f1b7dc9a2960bcef901d3431f5ed9f108079e8edbc8c
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
+  amplify_auth_cognito_ios:
+    dependency: transitive
+    description:
+      name: amplify_auth_cognito_ios
+      sha256: "7668ac46114f8f3fab8c5040be9ea4e1db6614500014441cea096f02466c2454"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
   amplify_auth_plugin_interface:
     dependency: transitive
     description:
@@ -66,7 +90,7 @@ packages:
     source: hosted
     version: "0.5.1"
   amplify_core:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: amplify_core
       sha256: "4078b2dbfcdc72502684a219df89319ee04759f2900e018d9e0db04bd9532aa0"

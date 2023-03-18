@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-watchfuleye-staging-190327-authRole",
+      "UnauthRoleArn": "arn:aws:iam::011210376936:role/amplify-watchfuleye-staging-190327-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::011210376936:role/amplify-watchfuleye-staging-190327-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-watchfuleye-staging-190327-deployment",
+      "UnauthRoleName": "amplify-watchfuleye-staging-190327-unauthRole",
+      "StackName": "amplify-watchfuleye-staging-190327",
+      "StackId": "arn:aws:cloudformation:us-east-1:011210376936:stack/amplify-watchfuleye-staging-190327/911e4960-c5bf-11ed-b36a-0ef8b4eaea33",
+      "AmplifyAppId": "dzyhqld0xn9cq"
+    },
+    "categories": {
+      "auth": {
+        "watchfuleye9f5673dd": {}
+      }
+    }
+  }
+}
