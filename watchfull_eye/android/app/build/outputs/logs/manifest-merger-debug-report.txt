@@ -7,15 +7,22 @@ INJECTED from C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\android\app\src\main
 MERGED from C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\android\app\src\main\AndroidManifest.xml:1:1-41:12
 MERGED from [:amplify_flutter_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:amplify_api_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_api_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_auth_cognito_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_auth_cognito_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:amplify_storage_s3_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_storage_s3_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:amplify_core] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:audioplayers_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:path_provider_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_secure_storage] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [:just_audio] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:audio_session] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_sound] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_sound\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\b80334d038d80331d637b7e702142320\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
 MERGED from [com.amplifyframework:aws-api:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\87558507be1244e87ce0566c8406ee9f\transformed\jetified-aws-api-1.33.0\AndroidManifest.xml:16:1-26:12
 MERGED from [com.amplifyframework:aws-api-appsync:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6e5d0e5ebe126beae506052020b4c1d\transformed\jetified-aws-api-appsync-1.33.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:aws-auth-cognito:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\9aa9a256c37d91c25491480212676557\transformed\jetified-aws-auth-cognito-1.33.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:16:1-30:12
 MERGED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:16:1-32:12
 MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\1d089fbc8d465fa96a8c240a6495ffc7\transformed\jetified-navigation-dynamic-features-fragment-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\953eba9996cafce40aea0d908848811d\transformed\navigation-fragment-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
@@ -29,17 +36,28 @@ MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Devarsh\.g
 MERGED from [androidx.security:security-crypto:1.1.0-alpha04] C:\Users\Devarsh\.gradle\caches\transforms-3\e36c52d3d563a426de23891e6dbb41e4\transformed\jetified-security-crypto-1.1.0-alpha04\AndroidManifest.xml:17:1-22:12
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\36f8523ccb4e1de1f5c5b111b281551e\transformed\jetified-aws-android-sdk-mobile-client-2.41.0\AndroidManifest.xml:2:1-20:12
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\b580ee68edb0d5795366db94be872e8c\transformed\jetified-aws-android-sdk-auth-core-2.41.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:2:1-19:12
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\afc2263bb963987bd2c333cfa03c1bc8\transformed\jetified-aws-android-sdk-s3-2.41.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\a8c1fffc01942ae38de20ac4201d38a6\transformed\jetified-aws-android-sdk-cognitoidentityprovider-2.41.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider-asf:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8e9f55def83abb959a9b29cff88771e7\transformed\jetified-aws-android-sdk-cognitoidentityprovider-asf-2.41.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e7b10bdbd14eb509a9ed1d38f01b4180\transformed\jetified-aws-android-sdk-kms-2.41.0\AndroidManifest.xml:2:1-10:12
 MERGED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:2:1-16:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\98e51fed5549694bb7f645eab73df11f\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6d3313236bee9e9a9ec2f7d04c0e6dd\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:2:1-9:12
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\6f18e0d2cd354b2be2804c6e90195bab\transformed\jetified-exoplayer-dash-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f0ef9aa3d98fafd5b11179a75f359e06\transformed\jetified-exoplayer-hls-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\19a76e744b876caae2a2b85cd2a78c45\transformed\jetified-exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\0d988a433703dc6e6cc17b7e603fdf79\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:2:1-18:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\89a4e2a412c49b1b4f70ad5d5cd0b251\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.media2:media2-common:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e1e6d56bffefd5c38919112e0f4f80c3\transformed\jetified-media2-common-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.4.1] C:\Users\Devarsh\.gradle\caches\transforms-3\aa0c77f18c55b3330cc65d51a7e2551c\transformed\media-1.4.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\14da7268aaf0958deb24774262995aa9\transformed\navigation-ui-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c4acb40d092539018820f1147e6fdeee\transformed\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\2b7ca97c30e0c1c30d711e08f83f16ce\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ffca8c236fb374791bb716537c2ee7f1\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\90a954c760588bec7b39856919d9a94f\transformed\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\53c143bedb6e73302dd7c230c952ed5d\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\fe05fae666810d7ea93b11d39426a19d\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -51,19 +69,24 @@ MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Devars
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\960765d9ed7d2e9c0fd00dc8f0448900\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\9cdde0793594f71c49f3442c5769033f\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1a01e6da206ce16bff25a7c74d7a91ee\transformed\transition-1.3.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c7bea36235b131ed081727661661199d\transformed\browser-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\f70e379cde867d01620ae90a4b22426e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\d319e318da6ea5966f85f29952007594\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\0dc136471a5464c48609644bc466ff1a\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\63f97e2813c6a3fad6588c2a39f16f9f\transformed\navigation-runtime-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\52d82c6483617f0b072a391db00896ba\transformed\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\5e1f263cc8969059dd7b282eaaab19cb\transformed\navigation-common-2.3.4\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5f27f63ffad793953dd0e9b78cb817e6\transformed\core-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Devarsh\.gradle\caches\transforms-3\a35fc993a4a828649ec4919d693292b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\ccb12587ad189f81964bb39931cc1242\transformed\jetified-exoplayer-datasource-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f5754e981ae83ca55b21270ceecf19f7\transformed\jetified-exoplayer-extractor-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\138e7a18b7e9e518bfde8432800157ed\transformed\jetified-exoplayer-decoder-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\e97de51ad7a33e72e53e32c8b2d484c8\transformed\jetified-exoplayer-database-2.18.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\c636b4707036666ab0ab205a5c53b626\transformed\jetified-exoplayer-common-2.18.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\82c8503e40340780f1d1291cc0aa63dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\3e3f5748393249c01b93bcd764d9bfc5\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\0f3eecda21b6aa87aec63e1fecc9cba1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1faa6e9b6590d6d5e9474e9a60442534\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -99,10 +122,16 @@ application
 ADDED from C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\android\app\src\main\AndroidManifest.xml:3:4-40:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:24:5-28:19
+MERGED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:24:5-28:19
 MERGED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:26:5-30:19
 MERGED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:26:5-30:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:11:5-17:19
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:11:5-17:19
 MERGED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:10:5-14:19
 MERGED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:15:5-16:19
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:15:5-16:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c4acb40d092539018820f1147e6fdeee\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c4acb40d092539018820f1147e6fdeee\transformed\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.core:core:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5f27f63ffad793953dd0e9b78cb817e6\transformed\core-1.8.0\AndroidManifest.xml:24:5-89
@@ -167,16 +196,26 @@ MERGED from [:amplify_flutter_android] C:\Users\Devarsh\Desktop\Thrive\watchfull
 MERGED from [:amplify_flutter_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_flutter_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:amplify_api_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_api_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:amplify_api_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_api_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_auth_cognito_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:amplify_auth_cognito_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_auth_cognito_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:amplify_storage_s3_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_storage_s3_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:amplify_storage_s3_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_storage_s3_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:amplify_core] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:amplify_core] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\amplify_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:audioplayers_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-44
 MERGED from [:audioplayers_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audioplayers_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-44
 MERGED from [:path_provider_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_secure_storage] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:53
 MERGED from [:flutter_secure_storage] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_secure_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:53
+MERGED from [:just_audio] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:just_audio] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\just_audio\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences_android] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\shared_preferences_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:audio_session] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\audio_session\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_sound\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_sound] C:\Users\Devarsh\Desktop\Thrive\watchfull_eye\build\flutter_sound\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\b80334d038d80331d637b7e702142320\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\b80334d038d80331d637b7e702142320\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
@@ -185,6 +224,10 @@ MERGED from [com.amplifyframework:aws-api:1.33.0] C:\Users\Devarsh\.gradle\cache
 MERGED from [com.amplifyframework:aws-api:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\87558507be1244e87ce0566c8406ee9f\transformed\jetified-aws-api-1.33.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.amplifyframework:aws-api-appsync:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6e5d0e5ebe126beae506052020b4c1d\transformed\jetified-aws-api-appsync-1.33.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.amplifyframework:aws-api-appsync:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6e5d0e5ebe126beae506052020b4c1d\transformed\jetified-aws-api-appsync-1.33.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\9aa9a256c37d91c25491480212676557\transformed\jetified-aws-auth-cognito-1.33.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-auth-cognito:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\9aa9a256c37d91c25491480212676557\transformed\jetified-aws-auth-cognito-1.33.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\1d089fbc8d465fa96a8c240a6495ffc7\transformed\jetified-navigation-dynamic-features-fragment-2.3.4\AndroidManifest.xml:20:5-22:41
@@ -211,28 +254,50 @@ MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.41.0] C:\Users\Devars
 MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\36f8523ccb4e1de1f5c5b111b281551e\transformed\jetified-aws-android-sdk-mobile-client-2.41.0\AndroidManifest.xml:12:5-15:96
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\b580ee68edb0d5795366db94be872e8c\transformed\jetified-aws-android-sdk-auth-core-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\b580ee68edb0d5795366db94be872e8c\transformed\jetified-aws-android-sdk-auth-core-2.41.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\afc2263bb963987bd2c333cfa03c1bc8\transformed\jetified-aws-android-sdk-s3-2.41.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\afc2263bb963987bd2c333cfa03c1bc8\transformed\jetified-aws-android-sdk-s3-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\a8c1fffc01942ae38de20ac4201d38a6\transformed\jetified-aws-android-sdk-cognitoidentityprovider-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\a8c1fffc01942ae38de20ac4201d38a6\transformed\jetified-aws-android-sdk-cognitoidentityprovider-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider-asf:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8e9f55def83abb959a9b29cff88771e7\transformed\jetified-aws-android-sdk-cognitoidentityprovider-asf-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-cognitoidentityprovider-asf:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8e9f55def83abb959a9b29cff88771e7\transformed\jetified-aws-android-sdk-cognitoidentityprovider-asf-2.41.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e7b10bdbd14eb509a9ed1d38f01b4180\transformed\jetified-aws-android-sdk-kms-2.41.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.amazonaws:aws-android-sdk-kms:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e7b10bdbd14eb509a9ed1d38f01b4180\transformed\jetified-aws-android-sdk-kms-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\98e51fed5549694bb7f645eab73df11f\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common-ktx:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\98e51fed5549694bb7f645eab73df11f\transformed\navigation-common-ktx-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6d3313236bee9e9a9ec2f7d04c0e6dd\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c6d3313236bee9e9a9ec2f7d04c0e6dd\transformed\jetified-core-ktx-1.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\6f18e0d2cd354b2be2804c6e90195bab\transformed\jetified-exoplayer-dash-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\6f18e0d2cd354b2be2804c6e90195bab\transformed\jetified-exoplayer-dash-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f0ef9aa3d98fafd5b11179a75f359e06\transformed\jetified-exoplayer-hls-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f0ef9aa3d98fafd5b11179a75f359e06\transformed\jetified-exoplayer-hls-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\19a76e744b876caae2a2b85cd2a78c45\transformed\jetified-exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\19a76e744b876caae2a2b85cd2a78c45\transformed\jetified-exoplayer-smoothstreaming-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\0d988a433703dc6e6cc17b7e603fdf79\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\0d988a433703dc6e6cc17b7e603fdf79\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\89a4e2a412c49b1b4f70ad5d5cd0b251\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\89a4e2a412c49b1b4f70ad5d5cd0b251\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e1e6d56bffefd5c38919112e0f4f80c3\transformed\jetified-media2-common-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media2:media2-common:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\e1e6d56bffefd5c38919112e0f4f80c3\transformed\jetified-media2-common-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.1] C:\Users\Devarsh\.gradle\caches\transforms-3\aa0c77f18c55b3330cc65d51a7e2551c\transformed\media-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.4.1] C:\Users\Devarsh\.gradle\caches\transforms-3\aa0c77f18c55b3330cc65d51a7e2551c\transformed\media-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\14da7268aaf0958deb24774262995aa9\transformed\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\14da7268aaf0958deb24774262995aa9\transformed\navigation-ui-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c4acb40d092539018820f1147e6fdeee\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c4acb40d092539018820f1147e6fdeee\transformed\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\2b7ca97c30e0c1c30d711e08f83f16ce\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\2b7ca97c30e0c1c30d711e08f83f16ce\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.media:media:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ffca8c236fb374791bb716537c2ee7f1\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ffca8c236fb374791bb716537c2ee7f1\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\746a4fe633b372025accbeaddecda888\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\90a954c760588bec7b39856919d9a94f\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\90a954c760588bec7b39856919d9a94f\transformed\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\53c143bedb6e73302dd7c230c952ed5d\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
@@ -255,8 +320,12 @@ MERGED from [androidx.customview:customview:1.1.0] C:\Users\Devarsh\.gradle\cach
 MERGED from [androidx.customview:customview:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\9cdde0793594f71c49f3442c5769033f\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1a01e6da206ce16bff25a7c74d7a91ee\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1a01e6da206ce16bff25a7c74d7a91ee\transformed\transition-1.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\beca198ed9f605b8148f27b9cedceb33\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c7bea36235b131ed081727661661199d\transformed\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.3.0] C:\Users\Devarsh\.gradle\caches\transforms-3\c7bea36235b131ed081727661661199d\transformed\browser-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\f70e379cde867d01620ae90a4b22426e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\f70e379cde867d01620ae90a4b22426e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\d319e318da6ea5966f85f29952007594\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
@@ -269,18 +338,24 @@ MERGED from [androidx.activity:activity:1.1.0] C:\Users\Devarsh\.gradle\caches\t
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\52d82c6483617f0b072a391db00896ba\transformed\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\5e1f263cc8969059dd7b282eaaab19cb\transformed\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-common:2.3.4] C:\Users\Devarsh\.gradle\caches\transforms-3\5e1f263cc8969059dd7b282eaaab19cb\transformed\navigation-common-2.3.4\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\468a4a210617778a0301e3540d5d282e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Devarsh\.gradle\caches\transforms-3\4d61f13c7d3a86253e60a4e123f19e7b\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5f27f63ffad793953dd0e9b78cb817e6\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5f27f63ffad793953dd0e9b78cb817e6\transformed\core-1.8.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Devarsh\.gradle\caches\transforms-3\a35fc993a4a828649ec4919d693292b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Devarsh\.gradle\caches\transforms-3\a35fc993a4a828649ec4919d693292b3\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\ccb12587ad189f81964bb39931cc1242\transformed\jetified-exoplayer-datasource-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-datasource:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\ccb12587ad189f81964bb39931cc1242\transformed\jetified-exoplayer-datasource-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f5754e981ae83ca55b21270ceecf19f7\transformed\jetified-exoplayer-extractor-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\f5754e981ae83ca55b21270ceecf19f7\transformed\jetified-exoplayer-extractor-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\138e7a18b7e9e518bfde8432800157ed\transformed\jetified-exoplayer-decoder-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-decoder:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\138e7a18b7e9e518bfde8432800157ed\transformed\jetified-exoplayer-decoder-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\e97de51ad7a33e72e53e32c8b2d484c8\transformed\jetified-exoplayer-database-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-database:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\e97de51ad7a33e72e53e32c8b2d484c8\transformed\jetified-exoplayer-database-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\c636b4707036666ab0ab205a5c53b626\transformed\jetified-exoplayer-common-2.18.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\c636b4707036666ab0ab205a5c53b626\transformed\jetified-exoplayer-common-2.18.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\82c8503e40340780f1d1291cc0aa63dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\82c8503e40340780f1d1291cc0aa63dc\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Devarsh\.gradle\caches\transforms-3\94be8da04876ab18e38121a6a3433d39\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\3e3f5748393249c01b93bcd764d9bfc5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\3e3f5748393249c01b93bcd764d9bfc5\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Devarsh\.gradle\caches\transforms-3\0f3eecda21b6aa87aec63e1fecc9cba1\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -341,6 +416,12 @@ ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches
 		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Devarsh\.gradle\caches\transforms-3\38dc5d1c38afc71edf2ba3355405374f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+service#com.amazonaws.mobileconnectors.s3.transferutility.TransferService
+ADDED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:25:9-27:38
+	android:enabled
+		ADDED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:27:13-35
+	android:name
+		ADDED from [com.amplifyframework:aws-storage-s3:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\5e8d3e3b966ca98c8917165b17333487\transformed\jetified-aws-storage-s3-1.33.0\AndroidManifest.xml:26:13-93
 activity#com.amplifyframework.devmenu.DeveloperMenuActivity
 ADDED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:27:9-29:54
 	android:theme
@@ -349,14 +430,64 @@ ADDED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\tr
 		ADDED from [com.amplifyframework:core:1.33.0] C:\Users\Devarsh\.gradle\caches\transforms-3\8d902200ba3143707ed520ff29d8a9dc\transformed\jetified-core-1.33.0\AndroidManifest.xml:28:13-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\36f8523ccb4e1de1f5c5b111b281551e\transformed\jetified-aws-android-sdk-mobile-client-2.41.0\AndroidManifest.xml:18:5-79
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\afc2263bb963987bd2c333cfa03c1bc8\transformed\jetified-aws-android-sdk-s3-2.41.0\AndroidManifest.xml:10:5-79
+MERGED from [com.amazonaws:aws-android-sdk-s3:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\afc2263bb963987bd2c333cfa03c1bc8\transformed\jetified-aws-android-sdk-s3-2.41.0\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\0d988a433703dc6e6cc17b7e603fdf79\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\0d988a433703dc6e6cc17b7e603fdf79\transformed\jetified-exoplayer-core-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\c636b4707036666ab0ab205a5c53b626\transformed\jetified-exoplayer-common-2.18.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.18.1] C:\Users\Devarsh\.gradle\caches\transforms-3\c636b4707036666ab0ab205a5c53b626\transformed\jetified-exoplayer-common-2.18.1\AndroidManifest.xml:24:5-79
 	android:name
 		ADDED from [com.amazonaws:aws-android-sdk-mobile-client:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\36f8523ccb4e1de1f5c5b111b281551e\transformed\jetified-aws-android-sdk-mobile-client-2.41.0\AndroidManifest.xml:18:22-76
+activity#com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity
+ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:12:9-16:75
+	android:launchMode
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:15:13-44
+	android:exported
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:16:13-72
+	android:name
+		ADDED from [com.amazonaws:aws-android-sdk-cognitoauth:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\27185b88f165362c07d7bf8a5c980848\transformed\jetified-aws-android-sdk-cognitoauth-2.41.0\AndroidManifest.xml:13:13-107
 uses-library#org.apache.http.legacy
 ADDED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:11:9-13:40
 	android:required
 		ADDED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:13:13-37
 	android:name
 		ADDED from [com.amazonaws:aws-android-sdk-core:2.41.0] C:\Users\Devarsh\.gradle\caches\transforms-3\1cd6967ef305ef2e86ea6d8d2d894f3d\transformed\jetified-aws-android-sdk-core-2.41.0\AndroidManifest.xml:12:13-50
+uses-permission#android.permission.BLUETOOTH
+ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:12:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [com.github.canardoux:flutter_sound_core:9.2.13] C:\Users\Devarsh\.gradle\caches\transforms-3\0256c6cfdc63a279b877c240e52cf497\transformed\jetified-flutter_sound_core-9.2.13\AndroidManifest.xml:13:22-77
+queries
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:24:5-34:15
+MERGED from [androidx.media:media:1.4.1] C:\Users\Devarsh\.gradle\caches\transforms-3\aa0c77f18c55b3330cc65d51a7e2551c\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
+MERGED from [androidx.media:media:1.4.1] C:\Users\Devarsh\.gradle\caches\transforms-3\aa0c77f18c55b3330cc65d51a7e2551c\transformed\media-1.4.1\AndroidManifest.xml:24:5-28:15
+intent#action:name:android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:25:9-27:18
+action#android.media.browse.MediaBrowserService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:13-79
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:21-76
+intent#action:name:androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:28:9-30:18
+action#androidx.media2.session.MediaSessionService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:21-79
+intent#action:name:androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:31:9-33:18
+action#androidx.media2.session.MediaLibraryService
+ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:13-82
+	android:name
+		ADDED from [androidx.media2:media2-session:1.2.0] C:\Users\Devarsh\.gradle\caches\transforms-3\ac4929834595427acc93a0b46ba75f4a\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:21-79
 uses-permission#android.permission.FOREGROUND_SERVICE
 ADDED from [com.google.android.play:core:1.9.1] C:\Users\Devarsh\.gradle\caches\transforms-3\2c56da028ffcab0f4f7ee83139c9718c\transformed\jetified-core-1.9.1\AndroidManifest.xml:8:3-74
 	android:name

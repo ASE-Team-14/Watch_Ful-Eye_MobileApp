@@ -14,6 +14,13 @@
     "categories": {
       "auth": {
         "watchfuleye9f5673dd": {}
+      },
+      "storage": {
+        "evidenceList": {},
+        "watchfuleye7b46b09b": {
+          "bucketName": "storeaudiofiles-watchfuleye",
+          "region": "us-east-2"
+        }
       }
     }
   }

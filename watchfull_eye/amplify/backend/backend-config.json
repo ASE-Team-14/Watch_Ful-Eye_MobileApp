@@ -26,5 +26,31 @@
       "providerPlugin": "awscloudformation",
       "service": "Cognito"
     }
+  },
+  "parameters": {
+    "AMPLIFY_storage_watchfuleye7b46b09b_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "watchfuleye7b46b09b"
+        }
+      ]
+    },
+    "AMPLIFY_storage_watchfuleye7b46b09b_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "watchfuleye7b46b09b"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "watchfuleye7b46b09b": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
   }
 }

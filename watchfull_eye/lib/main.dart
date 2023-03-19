@@ -1,5 +1,10 @@
 import 'dart:async';
+import 'package:amplify_core/amplify_core.dart';
+import 'package:watchfull_eye/signup_screen.dart';
 
+import 'amplifyconfiguration.dart';
+import 'package:amplify_auth_cognito/amplify_auth_cognito.dart';
+import 'package:amplify_flutter/amplify_flutter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:watchfull_eye/auth.dart';
@@ -7,6 +12,8 @@ import 'package:watchfull_eye/auth.dart';
 import 'package:watchfull_eye/datadisplay.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:watchfull_eye/settings.dart';
+
+import 'login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -163,7 +170,7 @@ class MyCustomFormState extends State<MyCustomForm> {
           TextFormField(
             decoration: const InputDecoration(
               icon: const Icon(Icons.mail_outline_sharp),
-              hintText: 'Mail Addressr',
+              hintText: 'Mail Address',
               labelText: 'Email',
             ),
             validator: (value) {
@@ -217,5 +224,50 @@ class MyCustomFormState extends State<MyCustomForm> {
         ],
       ),
     );
+  }
+}
+
+class AmplifyTODO extends StatefulWidget {
+  bool _amplifyConfigured = false;
+  @override
+  _AmplifyTODOState createState() => _AmplifyTODOState();
+}
+
+class _AmplifyTODOState extends State<AmplifyTODO> {
+  bool _amplifyConfigured = false;
+  @override
+  void initState() {
+    super.initState();
+    _configureAmplify();
+  }
+  // Amplify _amplifyInstance = Amplify();
+
+  // Future<void> _configureAmplify() async {
+  //   try {
+  //     AmplifyAuthCognito auth = AmplifyAuthCognito();
+  //     _amplifyInstance.addPlugin(
+  //       authPlugins: [auth],
+  //     );
+  //     await _amplifyInstance.configure(amplifyconfig);
+
+  //     setState(() => _amplifyConfigured = true);
+  //   } catch (e) {
+  //     print(e);
+  //     setState(() => _amplifyConfigured = false);
+  //   }
+  //   setState(() => _amplifyConfigured = true);
+  // }
+
+  Future<void> _configureAmplify() async {
+    await Amplify.addPlugins([AmplifyAuthCognito()]);
+    await Amplify.configure(amplifyconfig);
+    setState(() {
+      _amplifyConfigured = true;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return LoginScreen();
   }
 }

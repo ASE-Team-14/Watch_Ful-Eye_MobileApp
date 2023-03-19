@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:watchfull_eye/evidence.dart';
 import 'package:watchfull_eye/evidencereport.dart';
 import 'package:watchfull_eye/main.dart';
 import 'package:watchfull_eye/manageuser.dart';
@@ -90,12 +91,8 @@ class _WatchDataState extends State<WatchData> {
               ListTile(
                 title: const Text('Evidence Report'),
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => AudioPlayerScreen(
-                              filePath:
-                                  'https://s3.console.aws.amazon.com/s3/object/storeaudiofiles-watchfuleye?region=us-east-2&prefix=recording.wav')));
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => AudioListPage()));
                 },
               ),
               Divider(
@@ -285,12 +282,8 @@ class _WatchDataState extends State<WatchData> {
             padding: const EdgeInsets.only(right: 0),
             child: FloatingActionButton(
               onPressed: () => {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => AudioPlayerScreen(
-                            filePath:
-                                'https://s3.console.aws.amazon.com/s3/object/storeaudiofiles-watchfuleye?region=us-east-2&prefix=recording.wav')))
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => AudioListPage()))
               },
               child: const Text(
                 "Evidence Reports",

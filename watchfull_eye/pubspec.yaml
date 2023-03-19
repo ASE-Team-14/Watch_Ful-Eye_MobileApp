@@ -51,7 +51,10 @@ dependencies:
   get: ^4.6.5
   aws_s3_api: ^2.0.0
   amplify_auth_cognito: ^0.5.1
-  amplify_core: ^0.5.1
+  flutter_sound: ^9.2.13
+  just_audio: ^0.9.31
+  amplify_storage_s3: ^0.5.1
+  # amplify_core: ^0.5.1
   
   
   

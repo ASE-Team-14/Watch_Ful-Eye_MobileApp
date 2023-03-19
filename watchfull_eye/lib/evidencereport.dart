@@ -3,51 +3,63 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 import 'package:aws_s3_api/s3-2006-03-01.dart';
 import 'package:audioplayers/audioplayers.dart';
+
 class AudioPlayerScreen extends StatefulWidget {
-  final String filePath;
-  AudioPlayerScreen({required this.filePath});
-  @override  _AudioPlayerScreenState createState() => _AudioPlayerScreenState();
+  final String filePath = '';
+
+  @override
+  _AudioPlayerScreenState createState() => _AudioPlayerScreenState();
 }
+
 class _AudioPlayerScreenState extends State<AudioPlayerScreen> {
   late AudioPlayer _audioPlayer;
   bool _isLoading = true;
-  @override  void initState() {
+  @override
+  void initState() {
     super.initState();
     _audioPlayer = AudioPlayer();
     _loadAudio();
   }
+
   Future<void> _loadAudio() async {
     try {
-      // Initialize the S3 client      
-      // final credentials = AwsClientCredentials(accessKey: 'your_access_key', secretKey: 'your_secret_key');
+      // Initialize the S3 client
+      final credentials = AwsClientCredentials(accessKey: '', secretKey: '');
       final s3 = S3(
-        region: 'us-west-2', // replace with your AWS region        
-        // credentials: credentials,
+        region: 'us-east-1', // replace with your AWS region
+        credentials: credentials,
       );
-      // Download the audio file from S3      
+      // Download the audio file from S3
       final response = await s3.getObject(
-        bucket: 'storeaudiofiles-watchfuleye',// replace with your bucket name        
-        key: widget.filePath,
+        bucket: 'storeaudiofiles-watchfuleye', // replace with your bucket name
+        key:
+            'https://s3.console.aws.amazon.com/s3/object/storeaudiofiles-watchfuleye?region=us-east-2&prefix=recording.wav',
       );
-      final downloadUrl = Uri.dataFromBytes(response.body!.toList()).toString();
-      // Play the downloaded audio file     
-      await _audioPlayer.play(downloadUrl as Source);
+      final audioData = response.body!;
+      // Play the downloaded audio file
+      final _audioPlayer = AudioPlayer();
+      _audioPlayer.play(AssetSource(
+          'https://s3.console.aws.amazon.com/s3/object/storeaudiofiles-watchfuleye?region=us-east-2&prefix=recording.wav'));
       setState(() => _isLoading = false);
     } catch (e) {
       print(e);
       setState(() => _isLoading = false);
     }
   }
-  @override  void dispose() {
+
+  @override
+  void dispose() {
     _audioPlayer.dispose();
     super.dispose();
   }
-  @override  Widget build(BuildContext context) {
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Audio Player')),
       body: Center(
-        child: _isLoading ? CircularProgressIndicator() : Text('Audio is playing...'),
-      ),
+          child: ElevatedButton(
+              child: Text("PRESS"), onPressed: () => _loadAudio())),
     );
   }
 }
