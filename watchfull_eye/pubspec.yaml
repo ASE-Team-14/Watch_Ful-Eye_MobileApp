@@ -54,6 +54,8 @@ dependencies:
   flutter_sound: ^9.2.13
   just_audio: ^0.9.31
   amplify_storage_s3: ^0.5.1
+  cloud_firestore: ^4.4.5
+  firebase_storage: ^11.0.16
   # amplify_core: ^0.5.1
   
   

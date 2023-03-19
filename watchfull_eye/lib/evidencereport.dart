@@ -39,7 +39,7 @@ class _AudioPlayerScreenState extends State<AudioPlayerScreen> {
       // Play the downloaded audio file
       final _audioPlayer = AudioPlayer();
       _audioPlayer.play(AssetSource(
-          'https://s3.console.aws.amazon.com/s3/object/storeaudiofiles-watchfuleye?region=us-east-2&prefix=recording.wav'));
+          'https://firebasestorage.googleapis.com/v0/b/watchfull-eye.appspot.com/o/recording.wav?alt=media&token=5b9f8360-635f-458d-b52a-0a05263b9195'));
       setState(() => _isLoading = false);
     } catch (e) {
       print(e);

@@ -18,18 +18,22 @@ class WatchData extends StatefulWidget {
 
 class _WatchDataState extends State<WatchData> {
   ScrollController _scrollController = ScrollController();
-  double audioLevel = 0;
-  double hrv = 0;
+  double audioLevel = 0.0;
+  double hrv = 0.0;
   double heartrate = 0;
   double spo2 = 0;
-
+  List<HealthData> _healthDataList = [];
   Future<String> _loadHealthData() async {
+    
+
     final response = await http.get(Uri.parse(
         'https://byqa2hsitf.execute-api.us-east-2.amazonaws.com/dev/displayVitalsMobile'));
+    
     return response.body;
   }
 
   Future<void> _parseHealthData() async {
+    print("2");
     String jsonString = await _loadHealthData();
     final jsonData = json.decode(jsonString);
     Map<String, dynamic> data = jsonDecode(jsonData['body']);
@@ -56,6 +60,7 @@ class _WatchDataState extends State<WatchData> {
   @override
   void initState() {
     super.initState();
+    print("1");
     _parseHealthData();
 
     // Add listener to the scroll controller to detect when user reaches the end of the list
@@ -91,8 +96,13 @@ class _WatchDataState extends State<WatchData> {
               ListTile(
                 title: const Text('Evidence Report'),
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => AudioListPage()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => AudioPage(
+                                audioUrl:
+                                    'https://firebasestorage.googleapis.com/v0/b/watchfull-eye.appspot.com/o/recording.wav?alt=media&token=5b9f8360-635f-458d-b52a-0a05263b9195',
+                              )));
                 },
               ),
               Divider(
@@ -282,8 +292,13 @@ class _WatchDataState extends State<WatchData> {
             padding: const EdgeInsets.only(right: 0),
             child: FloatingActionButton(
               onPressed: () => {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => AudioListPage()))
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => AudioPage(
+                              audioUrl:
+                                  "https://firebasestorage.googleapis.com/v0/b/watchfull-eye.appspot.com/o/file_example_WAV_1MG.wav?alt=media&token=5dc0de2d-7450-4d1b-9e71-22b473c6bb56",
+                            )))
               },
               child: const Text(
                 "Evidence Reports",

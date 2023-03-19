@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "621199126407",
+    "project_id": "watchfull-eye",
+    "storage_bucket": "watchfull-eye.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621199126407:android:e7def59bf03f13c9722d22",
+        "android_client_info": {
+          "package_name": "com.example.watchfull_eye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "621199126407-ksp77b9g983b8aoh324561oh5ff8eduq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd5JSia04jrFOoDwtUbgArrnPGyzZE00I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "621199126407-ksp77b9g983b8aoh324561oh5ff8eduq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
