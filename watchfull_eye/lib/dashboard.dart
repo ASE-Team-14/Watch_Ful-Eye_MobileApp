@@ -83,7 +83,7 @@ class _DisplayFieldState extends State<DisplayField> {
               title: Text(
                 manageUserName[index],
               ),
-              selectedColor: Colors.purple,
+              
               subtitle: Text(manageUserEmail[index]),
             );
           },

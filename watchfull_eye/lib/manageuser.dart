@@ -1,8 +1,12 @@
 import 'dart:convert';
-
+import 'package:http/http.dart' as http;
 import 'package:amazon_cognito_identity_dart_2/cognito.dart';
 import 'package:flutter/material.dart';
 import 'package:watchfull_eye/dashboard.dart';
+import 'package:watchfull_eye/datadisplay.dart';
+import 'package:watchfull_eye/globals.dart';
+import 'package:watchfull_eye/manageuserlist.dart';
+import 'package:watchfull_eye/testingaws.dart';
 
 final _formKey = GlobalKey<FormState>();
 final _nameController = TextEditingController();
@@ -30,12 +34,32 @@ List<String> manageUserEmail = [];
 //   return signUpResponse.userConfirmed.toString();
 // }
 
+Future<void> insertUserDetails(String userIdcontroller,
+    String userNameController, String mobileNumberController) async {
+  print(userIdcontroller);
+  const String apiUrl =
+      'https://2m3gb5nrg7.execute-api.us-east-2.amazonaws.com/dev/insertuserdata';
+  final response = await http.post(Uri.parse(apiUrl),
+      headers: {'Content-Type': 'application/json'},
+      body: jsonEncode({
+        'user_id': userIdcontroller,
+        'user_name': userNameController,
+        'mobile_number': mobileNumberController
+      }));
+  if (response.statusCode == 200) {
+    print(response.body);
+    print('User details inserted successfully.');
+  } else {
+    print('Error inserting user details: ${response.statusCode}');
+  }
+}
+
 void addUsers() {
   manageUserName.add(name);
 }
 
 void addmail() {
-  manageUserEmail.add(email);
+  manageUserEmail.add(userName);
 }
 
 void clearUsers() {
@@ -54,6 +78,7 @@ class _MyFormState extends State<MyForm> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Manage Users'),
+        backgroundColor: Colors.cyan,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -64,14 +89,14 @@ class _MyFormState extends State<MyForm> {
             children: <Widget>[
               TextFormField(
                 controller: _nameController,
-                decoration: InputDecoration(
-                  labelText: 'Name',
+                decoration: const InputDecoration(
+                  labelText: 'UserName',
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter your name';
                   } else {
-                    name = value;
+                    userName = value;
                     addUsers();
                   }
                   return null;
@@ -83,13 +108,13 @@ class _MyFormState extends State<MyForm> {
               TextFormField(
                 controller: _emailController,
                 decoration: InputDecoration(
-                  labelText: 'Email',
+                  labelText: 'UserId',
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
-                    return 'Please enter your email address';
+                    return 'Please enter your UserId';
                   } else {
-                    email = value;
+                    userId = value;
                     addmail();
                   }
                   return null;
@@ -97,12 +122,14 @@ class _MyFormState extends State<MyForm> {
               ),
               TextFormField(
                 controller: _numberController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   labelText: 'Phone Number',
                 ),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter your phone number';
+                  } else {
+                    mobileNumber = value;
                   }
                   return null;
                 },
@@ -113,14 +140,21 @@ class _MyFormState extends State<MyForm> {
                   onPressed: () {
                     if (_formKey.currentState!.validate()) {
                       // Process data.
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => DisplayField()));
+                      insertUserDetails(userId, userName, mobileNumber);
+                      SnackBar(content: Text("User Added"));
                     }
                   },
                   child: Text('Submit'),
                 ),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => UserListScreen()));
+                },
+                child: Text('View Users'),
               ),
             ],
           ),
